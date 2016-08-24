@@ -4,7 +4,9 @@
 # https://mmishou.wordpress.com/2010/04/13/passive-dns-mining-from-pcap-with-dpkt-python/
 
 import dpkt
-import datetime, socket, sys
+import datetime
+import socket
+import sys
 import qtypes
 
 if len(sys.argv) < 2 or len(sys.argv) > 2:
